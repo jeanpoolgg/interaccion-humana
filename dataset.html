@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="es" class="no-js">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/normalize.min.css">
+    <link rel="stylesheet" href="css/foundation.css">
+    <link rel="stylesheet" href="css/main.css">
+    <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+    <title>Softmium</title>
+</head>
+
+<body>
+    <!-- Barra de navegación -->
+    <header class="fixed">
+        <div class="top-bar">
+            <div class="row">
+                <div class="large-4 columns"> 
+                    <a href="index.html" class="inicio">Redes Neuronales</a>
+                </div>
+                <div class="large-6 large-offset-2 columns">
+                    <div id="navegacion">
+                        <nav class="inline-list right">
+                            <li><a href="index.html">Inicio</a></li>
+                            <li><a href="tecnologia.html">Tecnología</a></li>
+                            <li><a href="dataset.html">Dataset</a></li>
+                            <li><a href="machine.html">Machine Learning</a></li>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="destacada">
+            <div class="pattern"></div>
+            <ul class="example-orbit" data-orbit>
+                <li>
+                    <img src="img/index.jpg" alt="slide 1" />
+                </li>
+                <li>
+                    <img src="img/tecnologia.jpg" alt="slide 2" />
+                </li>
+                <li>
+                    <img src="img/dataset.jpg" alt="slide 3" />
+                </li>
+                <li>
+                    <img src="img/machine.jpg" alt="slide 4" />
+                </li>
+            </ul>
+            <div class="contenido text-center">
+                <h1><span>Dataset</span></h1>
+            </div>
+        </section>
+        <section class="agencia text-center ">
+            <div class="container">
+                <div class="borde row">
+                    <h2>Definición</h2><br><br>
+                    <p>Un conjunto de datos, comúnmente conocido como "dataset," es una colección de información organizada y tabulada que se utiliza en diversos campos, incluyendo la ciencia de datos, la inteligencia artificial, la estadística y más. Un dataset puede contener datos de diferentes tipos, como números, texto, imágenes o cualquier otro tipo de información.</p>
+                </div>
+            </div>
+        </section>
+        <section class="row">
+            <h1 class="text-center">Tipos de Datasets</h1><br><br>
+            <p class="text-center">Ya que entiendes qué es un dataset, hablemos de los tipos. Existen cuatro tipos de Datasets catalogados según su origen y formato, los cuales son usados según las necesidades de los modelos de datos a trabajar.</p>
+        </section>
+        <section class="dataset">
+            <br><br><br>
+            <div class="">
+                <ul class="example-orbit-content" data-orbit>
+                    <li data-orbit-slide="headline-1">
+                      <div class="container">
+                        <h2>Archivo</h2>
+                        <p>Es un fichero independiente en el que se almacena toda la información con la que se va a trabajar del Dataset. Tiene como ventajas, la seguridad y rapidez para el trabajo con los datos, ya que siempre se explotan y se  visualizan de manera local, sin embargo la escalabilidad y conexión con otros Datasets que no están almacenados en la misma máquina se dificulta.</p>
+                      </div>
+                    </li>
+                    <li data-orbit-slide="headline-2">
+                      <div class="container">
+                        <h2>Foler</h2>
+                        <p>Es la suma de diferentes Datasets almacenados en una misma carpeta, los cuales están conectados entre ellos. Estos archivos deben compartir un mismo formato como puede ser .csv, .mif o dxf.</p>
+                      </div>
+                    </li>
+                    <li data-orbit-slide="headline-3">
+                      <div class="container">
+                        <h2>Bases de datos</h2>
+                        <p>Este tipo de Dataset puede llegarse a confundir con el archivo, pero se diferencia por su nivel de especialidad, es decir, son bases de datos con formatos específicos diseñadas para programas puntuales. Por ejemplo las bases de datos de Oracle, las cuales solo funcionan para sus desarrollos.</p>
+                      </div>
+                    </li>
+                    <li data-orbit-slide="headline-4">
+                        <div class="container">
+                          <h2>Web</h2>
+                          <p>Es la compilación de datos que se almacenan dentro de un sitio web del Dataset. El nombre que se le asigna por defecto a este Dataset es el correspondiente a la URL.</p>
+                        </div>
+                      </li>
+                  </ul>
+            </div>
+        </section>
+
+        <section class="container row">
+            <h1 class="text-center">Video explicativo</h1><br><br><br>
+            <div class="flex-video">
+                <iframe width="200"  src="//www.youtube.com/embed/pLVMfKKmJWU" frameborder="0" allowfullscreen></iframe>
+            </div>
+        </section>
+    
+    </main>
+
+    <footer>
+        <div class="row">
+            <nav class="large-6 columns inline-list">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="tecnologia.html">Tecnología</a></li>
+                <li><a href="dataset.html">Dataset</a></li>
+                <li><a href="machine.html">Machine Learning</a></li>
+            </nav>
+            <p class="text-center">Jean Pool Gutierrez Gutierrez</p>
+        </div>
+    </footer>
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
+    <script src="js/main.js"></script>
+    <script src="js/foundation.min.js"></script>
+    <script>
+        $(document).foundation();
+    </script>
+</body>
+
+</html>
